@@ -1,0 +1,73 @@
+body {
+    background-color: #1a1b1e;
+    color: #d3d3d3;
+    margin: 0;
+
+    font-family: 'KoPubWorldDotum', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+}
+
+div.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.big {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 13vw;
+    }
+}
+
+.breathing-background {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: breathing-background;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes breathing-background {
+    0% {}
+
+    60% {
+        background-color: #2f5aaf;
+    }
+
+    100% {}
+}
+
+.breathing-scale {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: breathing-scale;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes breathing-scale {
+    0% {}
+
+    60% {
+        transform: translateY(-15px) scale(1.05);
+    }
+
+    100% {}
+}

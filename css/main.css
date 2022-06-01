@@ -1,0 +1,115 @@
+body {
+  background-color: #1a1b1e;
+  color: #d3d3d3;
+  margin: 0;
+  font-family: 'KoPubWorldDotum', sans-serif;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+}
+
+div.container {
+  max-width: 1200px;
+  margin: 0;
+  padding: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.big {
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .big {
+    font-size: 13vw;
+  }
+}
+
+.breathing-background {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: breathing-background;
+          animation-name: breathing-background;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes breathing-background {
+  0% {
+  }
+  60% {
+    background-color: #2f5aaf;
+  }
+  100% {
+  }
+}
+
+@keyframes breathing-background {
+  0% {
+  }
+  60% {
+    background-color: #2f5aaf;
+  }
+  100% {
+  }
+}
+
+.breathing-scale {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: breathing-scale;
+          animation-name: breathing-scale;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes breathing-scale {
+  0% {
+  }
+  60% {
+    -webkit-transform: translateY(-15px) scale(1.05);
+            transform: translateY(-15px) scale(1.05);
+  }
+  100% {
+  }
+}
+
+@keyframes breathing-scale {
+  0% {
+  }
+  60% {
+    -webkit-transform: translateY(-15px) scale(1.05);
+            transform: translateY(-15px) scale(1.05);
+  }
+  100% {
+  }
+}
+/*# sourceMappingURL=main.css.map */
