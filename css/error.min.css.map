@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,gBAAgB,CAAE,OAAO,CAC5B,AACD,AAAA,KAAK,AAAC,CACF,gBAAgB,CAAE,OAAO,CAC5B",
+    "sources": [
+        "error.scss"
+    ],
+    "names": [],
+    "file": "error.min.css"
+}
